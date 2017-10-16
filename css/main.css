@@ -1,10 +1,52 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
-  line-height: 1.5;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  text-align: center;
+}
+
+body {
+  background-color: #eee9de;
+  margin: 1.5rem;
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: inherit;
+}
+
+div {
+  display: inline-block;
+  padding: 1em;
+  max-width: 25em;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #666;
+  border: 3px solid #666;
+  color: #eee9de;
 }
